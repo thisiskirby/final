@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swisshaven | Contact</title>
+    <meta name="author" content="Mariah Griffin">
+    <meta name="description" content="A web page for a resort style vacation destination in the Swiss Alps">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS STYLE SHEET-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;1,400;1,700&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Swisshaven</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accomodations">Accomodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" alt="" height="560" width="1440">
+    </header>
+    <main>
+        <div id="div1">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <p>Required fields marked with a *</p> 
+        <img src="images/swiss-sunset.jpg" alt="" height="270" width="710">
+        </div>
+        <div id="div2">
+            <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="post">
+                <label for="fullname">*Full name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br>
+                <label for="emailadd">*Email address:</label><br>
+                <input type="email" id="emailadd" name="emailadd" required><br>
+                <label for="phonenum">*Phone number:</label><br>
+                <input type="tel" id="phonenum" name="phonenum" required><br>
+                <br>
+        </div>
+        <div id="div3">
+            <fieldset>
+                <legend>Preferred contact method:</legend>
+                <input type="radio" name="preference" value="email" id="email">
+                <label for="email">Email</label>
+                <input type="radio" name="preference" value="phone" id="phone">
+                <label for="phone">Phone</label>
+            </fieldset>
+                <br>
+                <textarea name="comments" rows="4" cols="55">Comments</textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &#169; 2023 - Swisshaven</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
